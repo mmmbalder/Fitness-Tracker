@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash page</title>
+    <meta name="google-signin-client_id" content="67774504635-rdrritjpjppooopcd1sff7ck9s58q7ei.apps.googleusercontent.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700;1,800&display=swap" rel="stylesheet">
+    <link href="./reset.css" rel="stylesheet" type="text/css" />
+    <link href="./splash.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div id=left> 
+      <div id="HeaderImage">
+        <img id="activityImage" src="./Images/header_image.png" alt="Header Image" />
+      </div>
+      <div id="paragraph">
+        <p>Start your fitness journey today and 
+          <br>get ready to track your fitness activity. 
+        </p>  
+      </div>  
+    </div>
+
+  <div id=right>
+      <img id="tractivity" src="/Images/tractivityLogoWhite.png" alt="TractivityLogo" />
+      <h1> Welcome to tractivity!</h1>
+      <div id="paragraph2">
+        <p>Log in/Register</p>
+      </div>
+      <div class="g-signin2" data-onsuccess="onSignIn">
+        <a class="buttonBox" href="auth/google">
+          <img id="googleSignInButton" src="./Images/btn_google_signin.png" alt="Sign In with Google!" />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
