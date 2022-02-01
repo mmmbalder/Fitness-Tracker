@@ -5,5 +5,5 @@ Implementation of the front-end and back-end development using HTML, CSS, JavaSc
 - Application of HTML/CSS for the web layout.
 - Usage of JavaScript for communication between front-end and back-end.
 - Implimentation of Node.js and Express to facilitate browser-server interaction.
-- Utilization of SQLite3 database for the storage and retrieval of usage data.
+- Utilization of SQLite3 for the storage and retrieval of usage data in database.
 - D3 library used to graphically display the data points of each user.
